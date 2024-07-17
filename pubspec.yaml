@@ -1,6 +1,6 @@
 name: month_year_dropdown
 description: "A Flutter package for creating dropdown menus to select months and years. This package provides a customizable dropdown widget that allows users to choose from a list of months or years, enhancing the user experience in date-related inputs."
-version: 1.02
+version: 1.0.2
 homepage:  https://github.com/Krish0034/month_year_dropdown
 
 environment:
