@@ -199,16 +199,22 @@ class MyApp extends StatelessWidget {
 
 #### `DbUsernameSuggesterField`
 
-| Property           | Type                    | Description                                                                                  |
-|--------------------|-------------------------|----------------------------------------------------------------------------------------------|
-| Label              | `label`                 | Specifies the label for the username input field.                                            |
-| TextCapitalization | `textCapitalization`    | Defines how the text should be capitalized (e.g., none, words, sentences).                   |
-| OnChange           | `onChange`              | Initial or final destination for sliding or fading effects.                                  |
-| BorderRadius       | `borderRadius`          | Specifies the border radius of the input field.                                              |
-| HintText           | `hintText`              | Hint text displayed inside the input field when it is empty.                                 |
-| HintTextStyle      | `hintTextStyle`         | Style applied to the hint text.                                                              |
-| BorderColor        | `borderColor`           | Color of the input field border.                                                             |
-| ErrorText          | `errorText`             | Error message displayed when the username validation fails.                                  |
+| Property            | Type                     | Description                                                             |
+|---------------------|--------------------------|-------------------------------------------------------------------------|
+| menuPosition        | `EdgeInsetsGeometry`     | Specifies the padding for the dropdown field.                           |
+| itemTextStyle       | `TextStyle`              | Style applied to the text of each item in the dropdown menu.            |
+| monthsEnable        | `bool`                   | Enables month selection if set to true.                                 |
+| yearsEnable         | `bool `                  | Enables year selection if set to true.                                  |
+| controller          | `TextEditingController ` | Controller for the text field to manage the selected value.             |
+| textStyle           | `TextStyle`              | Style applied to the text in the text field.                            |
+| readOnly            | `bool`                   | If true, the text field will be read-only.                              |
+| decoration          | `InputDecoration`        | Decoration for the text field, including label, hint, and error styles. |
+| menuPosition        | `RelativeRect`           | Position of the dropdown menu.                                          |
+| innerLabelTextStyle | `TextStyle`              | Style applied to the inner label text.                                  |
+| innerLabelText      | `String`                 | Label text to display inside the text field.                            |
+| hintText            | `String`                 | Hint text to display when the text field is empty.                      |
+| prefixIcon          | `Widget`                 | Widget to display as the prefix icon of the text field.                 |
+| suffixIcon          | `Widget`                 | Widget to display as the suffix icon of the text field.                 |
 
 
 ## Platform Support 🌐
