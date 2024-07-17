@@ -22,11 +22,11 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
-  plugin:
-    platforms:
-      android:
-        package: com.example.month_year_dropdown
-        pluginClass: MonthYearDropdownPlugin
-      ios:
-        pluginClass: MonthYearDropdownPlugin
+#
+#  plugin:
+#    platforms:
+#      android:
+#        package: com.example.month_year_dropdown
+#        pluginClass: MonthYearDropdownPlugin
+#      ios:
+#        pluginClass: MonthYearDropdownPlugin
