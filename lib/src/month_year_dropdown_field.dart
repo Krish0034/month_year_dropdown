@@ -33,7 +33,7 @@ class MonthYearDropdownField extends State<MonthYearDropdown> {
   }
 
   List<String> _getYearList() {
-    return List.generate(101, (index) => (DateTime.now().year - index).toString());
+    return List.generate(101, (index) => (DateTime.now().year + index).toString());
   }
 
   List<PopupMenuEntry<String>> _getPopupMenuItems() {

@@ -17,7 +17,6 @@ class MonthYearDropdown extends StatefulWidget {
   final String Function(String?)? validator;
   final AutovalidateMode? autoValidateMode;
   final TextInputAction? textInputAction;
-  final String? initialText;
   final InputDecoration? decoration;
   final Widget? suffixIcon;
   final Color? suffixIconColor;
@@ -51,7 +50,6 @@ class MonthYearDropdown extends StatefulWidget {
     this.validator,
     this.autoValidateMode,
     this.textInputAction,
-    this.initialText,
     this.decoration,
     this.suffixIcon,
     this.suffixIconColor,
