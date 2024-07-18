@@ -3,12 +3,13 @@ import 'package:flutter/material.dart';
 import '../month_year.dart';
 
 class MonthYearDropdownField extends State<MonthYearDropdown> {
-
+  late TextEditingController controller;
   @override
-  void dispose() {
-    widget.controller.dispose();
-    super.dispose();
+  void initState() {
+    super.initState();
+    controller=widget.controller;
   }
+
 
   void selectMonth(BuildContext context, String value) {
     widget.controller.text = value;
